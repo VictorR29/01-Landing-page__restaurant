@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Lato:wght@300&display=swap" rel="stylesheet">
+  <title>Ristorante Italia Magico</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/tablet.css" media="(min-width: 768px)">
+</head>
+<body>
+  
+  <header class="navbar">
+    <span class="navbar__menu-icon"></span>
+    <h1 class="navbar__title">Ristorante Italia Magico</h1>
+  </header>
+  <nav class="navbar__menu">
+    <ul class="menu__links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#bookings">Bookings</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="main-container" id="home">
+    <img src="./assets/img/homePictura.webp" alt="homeImg">
+    <h2>Lo mejor de la cocina italiana en un solo lugar</h2>
+    <div class="main-container__down">
+      <p>Descubre lo que tenemos por ofrecer</p>
+      <span></span>
+    </div>
+  </main>
+
+  <section class="main-reserva" id="bookings">
+    <div class="reserva-info">
+      <h2>Haz tu reserva ahora y disfruta del mejor sabor italiano</h2>
+      <form action="">
+        <div class="date">
+          <label for="calendar">Fecha</label>
+          <input type="date" id="calendar">
+        </div>
+        
+        <div class="persons">
+          <label for="person">Personas</label>
+          <select name="" id="person">
+            <option value="1">1 persona</option>
+            <option value="2">2 persona</option>
+            <option value="3">3 persona</option>
+            <option value="4">4 persona</option>
+          </select>
+        </div>
+
+        <div class="hours">
+          <label for="hours">Hora</label>
+          <select name="" id="hours">
+            <option value="1">7:00 pm</option>
+            <option value="2">7:30 pm</option>
+            <option value="3">8:00 pm</option>
+            <option value="4">8:30 pm</option>
+          </select>
+        </div>
+
+        <input type="submit" class="btn-submit">
+      </form>
+    </div>
+    <div class="background-reserva">
+      <img src="./assets/img/reserva.webp" alt="reserva">
+    </div>
+  </section>
+  <section class="main-carta" id="menu">
+    <h2>Ven y conoce nuestra carta</h2>
+    <section class="cards-container">
+      <article class="card-carta">
+        <h3>Pasta</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis?</p>
+        <img src="./assets/img/pasta.webp" alt="pasta">
+      </article>
+      <article class="card-carta">
+        <h3>Pizza</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis?</p>
+        <img src="./assets/img/pizza.webp" alt="pizza">
+      </article>
+      <article class="card-carta">
+        <h3>Risotto</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis?</p>
+        <img src="./assets/img/risotto.webp" alt="risotto">
+      </article>
+      <article class="card-carta">
+        <h3>Dolci</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis?</p>
+        <img src="./assets/img/dolci.webp" alt="risotto">
+      </article>
+      <article class="card-carta">
+        <h3>Insalate</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis?</p>
+        <img src="./assets/img/insalate.webp" alt="risotto">
+      </article>
+      <article class="card-carta">
+        <h3>Bevande</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis?</p>
+        <img src="./assets/img/bevande.webp" alt="risotto">
+      </article>
+    </section>
+  </section>
+  <section class="main-contact" id="contact">
+    <div class="contact-container">
+      <article class="contact-title">
+        <p>Comunícate con nosotros a traves de nuestras redes sociales</p>
+      </article>
+      <section class="contact-icons">
+        <a href="#" class="facebook"><span></span></a>
+        <a href="#" class="instagram"><span></span></a>
+        <a href="#" class="twitter"><span></span></a>
+      </section>
+    </div>
+  </section>
+  <footer>
+    <span>Ristorante Italia Magico</span>
+    <article>
+      2022 Ristorante Italia Magico Todos los derechos reservados
+    </article>
+  </footer>
+
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
